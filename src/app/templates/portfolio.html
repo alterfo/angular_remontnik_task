@@ -1,8 +1,6 @@
 
-	<portfolioitem ng-repeat="item in portfolio_items">
-		<div class="pure-u-1" ng-if="$index == 0">
-			<img ng-src="https://www.remontnik.ru/{{item.images[0].image_large}}" alt="">
-		</div>
+	<portfolioitem ng-repeat="item in portfolio_items" index="$index" content="item">
+		
 
 		
 	</portfolioitem>
