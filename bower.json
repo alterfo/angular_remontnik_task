@@ -1,0 +1,29 @@
+{
+  "name": "slush-angular-task",
+  "main": [
+    "/dist/slush-angular-task.min.js",
+    "/dist/slush-angular-task.min.css"
+  ],
+  "version": "0.1.0",
+  "description": "TODO",
+  "authors": [
+    "TODO"
+  ],
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "klei.json",
+    "gulpfile.js",
+    "node_modules",
+    "bower_components",
+    "src"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14",
+    "angular-route": "~1.2.14",
+    "pure": "~0.6.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.14"
+  }
+}
